@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d7436db09e4d25848809.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stak2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "stak2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stak2-Debug-f5ff161abffc50fe5e1c.json",
+					"name" : "stak2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stak2_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stak2_autogen-Debug-863666018649a1ca66a3.json",
+					"name" : "stak2_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stak2_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stak2_autogen_timestamp_deps-Debug-8a24086bdccee0e6dbea.json",
+					"name" : "stak2_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Debug",
+		"source" : "C:/MurniSN/test_wasm/test_qt_wasm/stack2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

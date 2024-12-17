@@ -1,0 +1,2 @@
+::build script via cmd
+cmake -DTARGET_MACHINE=PAYC -DCMAKE_CXX_STANDARD=20 -DVCPKG_HOST_TRIPLET=x64-windows -DVCPKG_TARGET_TRIPLET=x64-windows -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=cl.exe -DCMAKE_CXX_COMPILER=cl.exe -DCMAKE_TOOLCHAIN_FILE=cl.exe -DCMAKE_TOOLCHAIN_FILE=C:\MurniSN\Project_cpp\vcpkg-master\vcpkg-master\scripts\buildsystems\vcpkg.cmake -DCMAKE_INSTALL_PREFIX=C:\MurniSN\test_wasm\test_qt_wasm\stack2\build\WebAssembly_Qt_6_8_1_multi_threaded-Debug -G "Ninja" .
