@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-535a84de6a58c3ec00c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stak2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "stak2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stak2-Release-38cd3787cb7aa1b9aad0.json",
+					"name" : "stak2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stak2_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stak2_autogen-Release-e524858f7485116a98f6.json",
+					"name" : "stak2_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stak2_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stak2_autogen_timestamp_deps-Release-8a24086bdccee0e6dbea.json",
+					"name" : "stak2_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Release",
+		"source" : "C:/MurniSN/test_wasm/test_qt_wasm/stack2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

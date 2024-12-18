@@ -1,8 +1,17 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include <QFile>
 
-#include "screen/s_homebase.h"
-#include "screen/s_menu.h"
+//#include "screen/s_homebase.h"
+//#include "screen/s_menu.h"
+#include "s_homebase.h"
+#include "s_menu.h"
+
+struct ColorText
+{
+    QString text;
+    QColor color;
+};
 
 void MainWindow::startScreen (const int& indx) {
     // stopIdleTimer();
@@ -48,6 +57,12 @@ MainWindow::MainWindow(QWidget *parent)
         ui->stackedWidget->insertWidget(static_cast<int>(SCREEN::MENU), s_menu);
 
         openScreen(SCREEN::MENU);
+
+        QFile file("myFile.txt");
+        if (file.open(QIODevice::WriteOnly)) {
+            file.write("Hello, WebAssembly!");
+            file.close();
+        }
 }
 
 

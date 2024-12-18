@@ -1,0 +1,8 @@
+C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/build_manual/CMakeFiles/stak2.dir
+C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/build_manual/CMakeFiles/edit_cache.dir
+C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/build_manual/CMakeFiles/rebuild_cache.dir
+C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/build_manual/CMakeFiles/list_install_components.dir
+C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/build_manual/CMakeFiles/install.dir
+C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/build_manual/CMakeFiles/install/local.dir
+C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/build_manual/CMakeFiles/stak2_autogen_timestamp_deps.dir
+C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/build_manual/CMakeFiles/stak2_autogen.dir

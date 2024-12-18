@@ -1,0 +1,12 @@
+# ninja log v6
+14	1049	7561962534351789	stak2_autogen/timestamp	f20d5cd933f1a911
+14	1049	7561962534351789	stak2_autogen/mocs_compilation.cpp	f20d5cd933f1a911
+14	1049	7561962534351789	C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Release/stak2_autogen/timestamp	f20d5cd933f1a911
+14	1049	7561962534351789	C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/Desktop_Qt_6_8_1_MSVC2022_64bit-Release/stak2_autogen/mocs_compilation.cpp	f20d5cd933f1a911
+1084	5354	7561962536161767	CMakeFiles/stak2.dir/selectorscreen.cpp.obj	b233c36b7c6c4089
+1056	5470	7561962535871685	CMakeFiles/stak2.dir/stak2_autogen/mocs_compilation.cpp.obj	3d59f81b3bce6fce
+1063	5486	7561962535941698	CMakeFiles/stak2.dir/main.cpp.obj	21aa792e221fc2de
+1077	5585	7561962536081729	CMakeFiles/stak2.dir/screen/s_homebase.cpp.obj	733a7b2cbf416fd1
+1092	5628	7561962536231746	CMakeFiles/stak2.dir/screen/s_menu.cpp.obj	72d3a95e87a482ec
+1070	6725	7561962536011762	CMakeFiles/stak2.dir/mainwindow.cpp.obj	7b4df64b6b4a04d0
+6725	7009	7561962592567206	stak2.exe	7f76adfb10d55884

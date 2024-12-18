@@ -1,0 +1,47 @@
+cmake_minimum_required(VERSION 3.19)
+project(stak2 LANGUAGES C CXX)
+
+find_package(Qt5 REQUIRED COMPONENTS Core Widgets)
+
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOMOC ON)
+SET(CMAKE_AUTOUIC ON)
+SET(CMAKE_AUTORCC ON)
+
+# spdlog
+find_package (spdlog CONFIG REQUIRED)
+message (STATUS "Using spdlog ${spdlog_VERSION}")
+
+add_executable(stak2
+    WIN32 MACOSX_BUNDLE
+
+    main.cpp
+    mainwindow.cpp
+    mainwindow.h
+    mainwindow.ui
+
+    s_homebase.cpp
+    s_homebase.h
+    s_homebase.ui
+    s_menu.h 
+    s_menu.cpp 
+    s_menu.ui
+
+    selectorscreen.h
+    selectorscreen.cpp
+    
+)
+
+target_link_libraries(stak2
+        Qt5::Core
+        Qt5::Widgets
+	Qt5::Gui
+)
+
+include(GNUInstallDirs)
+
+install(TARGETS stak2
+    BUNDLE  DESTINATION .
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+)

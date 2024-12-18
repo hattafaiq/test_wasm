@@ -1,0 +1,211 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:136 (include)"
+      - "CMakeLists.txt:4 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-ab5da2"
+      binary: "C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-ab5da2"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/platforms;C:/MurniSN/test_wasm/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "C:/Qt/6.8.1/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-ab5da2'
+        
+        Run Build Command(s): C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/bin/ninja.exe -v cmTC_654c4
+        [1/2] C:\\MurniSN\\test_wasm\\emsdk\\upstream\\emscripten\\em++.bat -DCMAKE_HAVE_LIBC_PTHREAD  -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_654c4.dir/src.cxx.o -MF CMakeFiles\\cmTC_654c4.dir\\src.cxx.o.d -o CMakeFiles/cmTC_654c4.dir/src.cxx.o -c C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-ab5da2/src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\MurniSN\\test_wasm\\emsdk\\upstream\\emscripten\\em++.bat   CMakeFiles/cmTC_654c4.dir/src.cxx.o -o cmTC_654c4.js   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:181 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-s7mwem"
+      binary: "C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-s7mwem"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/platforms;C:/MurniSN/test_wasm/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "C:/Qt/6.8.1/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-s7mwem'
+        
+        Run Build Command(s): C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/bin/ninja.exe -v cmTC_b7657
+        [1/2] C:\\MurniSN\\test_wasm\\emsdk\\upstream\\emscripten\\em++.bat -DHAVE_STDATOMIC  -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_b7657.dir/src.cxx.o -MF CMakeFiles\\cmTC_b7657.dir\\src.cxx.o.d -o CMakeFiles/cmTC_b7657.dir/src.cxx.o -c C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-s7mwem/src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\MurniSN\\test_wasm\\emsdk\\upstream\\emscripten\\em++.bat   CMakeFiles/cmTC_b7657.dir/src.cxx.o -o cmTC_b7657.js   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/FindWrapRt.cmake:23 (check_cxx_source_compiles)"
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:181 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    checks:
+      - "Performing Test HAVE_GETTIME"
+    directories:
+      source: "C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-qd6kow"
+      binary: "C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-qd6kow"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/platforms;C:/MurniSN/test_wasm/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "C:/Qt/6.8.1/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-qd6kow'
+        
+        Run Build Command(s): C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/bin/ninja.exe -v cmTC_cf91a
+        [1/2] C:\\MurniSN\\test_wasm\\emsdk\\upstream\\emscripten\\em++.bat -DHAVE_GETTIME  -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_cf91a.dir/src.cxx.o -MF CMakeFiles\\cmTC_cf91a.dir\\src.cxx.o.d -o CMakeFiles/cmTC_cf91a.dir/src.cxx.o -c C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-qd6kow/src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\MurniSN\\test_wasm\\emsdk\\upstream\\emscripten\\em++.bat   CMakeFiles/cmTC_cf91a.dir/src.cxx.o -o cmTC_cf91a.js   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/FindWrapRt.cmake:34 (check_cxx_source_compiles)"
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:181 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    checks:
+      - "Performing Test HAVE_SHM_OPEN_SHM_UNLINK"
+    directories:
+      source: "C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-22zs4h"
+      binary: "C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-22zs4h"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/platforms;C:/MurniSN/test_wasm/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "C:/Qt/6.8.1/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_SHM_OPEN_SHM_UNLINK"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-22zs4h'
+        
+        Run Build Command(s): C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/bin/ninja.exe -v cmTC_e3150
+        [1/2] C:\\MurniSN\\test_wasm\\emsdk\\upstream\\emscripten\\em++.bat -DHAVE_SHM_OPEN_SHM_UNLINK  -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_e3150.dir/src.cxx.o -MF CMakeFiles\\cmTC_e3150.dir\\src.cxx.o.d -o CMakeFiles/cmTC_e3150.dir/src.cxx.o -c C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-22zs4h/src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\MurniSN\\test_wasm\\emsdk\\upstream\\emscripten\\em++.bat   CMakeFiles/cmTC_e3150.dir/src.cxx.o -o cmTC_e3150.js   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake:128 (check_cxx_source_compiles)"
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:39 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:143 (find_dependency)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:43 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:181 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    checks:
+      - "Performing Test HAVE_EGL"
+    directories:
+      source: "C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-0r27xa"
+      binary: "C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-0r27xa"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/platforms;C:/MurniSN/test_wasm/emsdk/upstream/emscripten/cmake/Modules;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.8.1/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "C:/Qt/6.8.1/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_EGL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-0r27xa'
+        
+        Run Build Command(s): C:/MurniSN/Project_cpp/cmake-3.30.2-windows-x86_64/cmake-3.30.2-windows-x86_64/bin/ninja.exe -v cmTC_8ee90
+        [1/2] C:\\MurniSN\\test_wasm\\emsdk\\upstream\\emscripten\\em++.bat -DHAVE_EGL  -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_8ee90.dir/src.cxx.o -MF CMakeFiles\\cmTC_8ee90.dir\\src.cxx.o.d -o CMakeFiles/cmTC_8ee90.dir/src.cxx.o -c C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/WebAssembly_Qt_6_8_1_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-0r27xa/src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\MurniSN\\test_wasm\\emsdk\\upstream\\emscripten\\em++.bat   CMakeFiles/cmTC_8ee90.dir/src.cxx.o -o cmTC_8ee90.js   && cd ."
+        
+      exitCode: 0
+...

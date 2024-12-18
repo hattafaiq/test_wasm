@@ -1,0 +1,48 @@
+cmake_minimum_required(VERSION 3.19)
+project(stak2 LANGUAGES CXX)
+
+find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
+
+qt_standard_project_setup()
+
+# spdlog
+# find_package (spdlog CONFIG REQUIRED)
+# message (STATUS "Using spdlog ${spdlog_VERSION}")
+
+qt_add_executable(stak2
+    WIN32 MACOSX_BUNDLE
+
+    main.cpp
+    mainwindow.cpp
+    mainwindow.h
+    mainwindow.ui
+
+    screen/s_homebase.cpp
+    screen/s_homebase.h
+    screen/s_homebase.ui
+
+    selectorscreen.h
+    selectorscreen.cpp
+    screen/s_menu.h screen/s_menu.cpp screen/s_menu.ui
+)
+
+target_link_libraries(stak2
+    PRIVATE
+        Qt::Core
+        Qt::Widgets
+)
+
+include(GNUInstallDirs)
+
+install(TARGETS stak2
+    BUNDLE  DESTINATION .
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+)
+
+qt_generate_deploy_app_script(
+    TARGET stak2
+    OUTPUT_SCRIPT deploy_script
+    NO_UNSUPPORTED_PLATFORM_ERROR
+)
+install(SCRIPT ${deploy_script})

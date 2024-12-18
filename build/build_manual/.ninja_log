@@ -1,0 +1,12 @@
+# ninja log v6
+90	1788	7561206503225032	stak2_autogen/timestamp	ed868855097aef1e
+90	1788	7561206503225032	stak2_autogen/mocs_compilation.cpp	ed868855097aef1e
+90	1788	7561206503225032	C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/build_manual/stak2_autogen/timestamp	ed868855097aef1e
+90	1788	7561206503225032	C:/MurniSN/test_wasm/test_qt_wasm/stack2/build/build_manual/stak2_autogen/mocs_compilation.cpp	ed868855097aef1e
+1898	8498	7561206506447976	CMakeFiles/stak2.dir/screen/s_homebase.cpp.o	8e37df5e5cb0bb8a
+1846	8573	7561206505947972	CMakeFiles/stak2.dir/stak2_autogen/mocs_compilation.cpp.o	e754354f6ec87a6a
+1917	8642	7561206506688038	CMakeFiles/stak2.dir/selectorscreen.cpp.o	3bdbc57d490bc817
+1880	8882	7561206506277943	CMakeFiles/stak2.dir/mainwindow.cpp.o	d50777f6d31b5bc5
+1940	8895	7561206506917996	CMakeFiles/stak2.dir/screen/s_menu.cpp.o	8793b0ab0f0270ef
+1863	9126	7561206506097948	CMakeFiles/stak2.dir/main.cpp.o	ccccde215a942d6a
+9130	92474	7561206578707341	stak2.js	7c236bb27a1121fb
